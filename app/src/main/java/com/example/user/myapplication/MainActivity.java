@@ -20,11 +20,11 @@ public class MainActivity extends AppCompatActivity{
 
         Log.d(TAG, "onCreate()");
 
-        tv = (TextView) findViewById(R.id.hello_tv);
+       /* tv = (TextView) findViewById(R.id.hello_tv);
         Button bt = (Button) findViewById(R.id.hello_btn);
 
         bt.setOnClickListener(onClickListener);
-        tv.setOnClickListener(onClickListener);
+        tv.setOnClickListener(onClickListener);*/
     }
 
     @Override
@@ -69,6 +69,16 @@ public class MainActivity extends AppCompatActivity{
         Log.d(TAG, "onResume()");
     }
 
+    public void changeActivity(View v) {
+
+        Intent intent = new Intent(this, TwoActivity.class);
+        startActivity(intent);
+    }
+
+
+
+
+    /*
     private final View.OnClickListener onClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
@@ -81,6 +91,7 @@ public class MainActivity extends AppCompatActivity{
                     break;
             }
         }
-    };
+    };*/
+
 
 }

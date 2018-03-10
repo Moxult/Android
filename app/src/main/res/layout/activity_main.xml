@@ -7,24 +7,28 @@
 
 
     <com.example.user.myapplication.MyTextView
-        android:id="@+id/hello_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#fb0327"
-        android:textStyle="bold|italic"
         android:textSize="20sp"
-        android:text="Hello World!" />
+        android:text="Это MyTextView.class" />
+
+    <EditText
+        android:id="@+id/test_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имеет id"/>
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="Не меет id"/>
 
     <Button
-        android:id="@+id/hello_btn"
+        android:id="@+id/change_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Click me"/>
-
+        android:text="Перейти на второй экран"
+        android:onClick="changeActivity"/>
 
 </com.example.user.myapplication.MyLinearLayout>
 
