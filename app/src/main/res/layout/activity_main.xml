@@ -19,9 +19,9 @@
         android:hint="Имеет id"/>
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Не меет id"/>
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Не меет id"/>
 
     <Button
         android:id="@+id/change_btn"

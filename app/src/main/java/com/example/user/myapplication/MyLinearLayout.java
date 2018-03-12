@@ -16,7 +16,7 @@ import android.widget.LinearLayout;
 public class MyLinearLayout extends LinearLayout {
 
     private  static final String TAG = "MyLinearLayout";
-    
+
     public MyLinearLayout(Context context) {
         super(context);
         Log.d(TAG, "ctor1");
